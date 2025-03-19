@@ -10,7 +10,7 @@
   body
 ) = {
   set page(fill: background, margin: margin)
-  set text(font: ("HankenGrotesk"))
+  set text(font: ("Hanken Grotesk"))
   
   // Links should be purple.
   show link: set text(rgb("#800080"))

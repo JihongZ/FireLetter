@@ -13,9 +13,7 @@ to-details: |
   500 Republica, \
   Ambassadorial Sector, Senate District, \
   Galactic City, \ Coruscant
-format:
-  FireLetter-typst: 
-    keep-typ: true
+format: fireletter-typst
 ---
 
 Dear Emperor,

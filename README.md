@@ -27,6 +27,10 @@ Project:
 
 to the `_quarto.yml` file.
 
+## Example 
+
+<embed src="template.pdf" width="900px" height="1200px" />
+
 ## Using
 
 _TODO_: Describe how to use your format.

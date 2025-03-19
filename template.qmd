@@ -1,0 +1,91 @@
+---
+title: |
+  Jihong \ 
+  Zhang \
+from-details: |
+  Appt. x \
+  Mos Espa, \
+  Tatooine  \
+  anakin@example.com  \
+  +999 xxxx xxx \
+to-details: |
+  Sheev Palpatine \
+  500 Republica, \
+  Ambassadorial Sector, Senate District, \
+  Galactic City, \ Coruscant
+format:
+  FireLetter-typst: 
+    keep-typ: true
+---
+
+Dear Emperor,
+
+Let me talk about my skills.
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Typst
+
+You can check Quarto Typst documentation at <https://quarto.org/docs/output-formats/typst.html>.
+
+-   This is a list
+    -   This is second-level list
+        -   This is third-level list?
+
+::: callout-note
+## Add Callout Title
+
+1.  Numbered list 1\
+2.  Numbered list 2
+:::
+
+::: callout-tip
+-   Bold font **works**?
+
+-   Italic font *works*?
+
+-   Striketrough font ~~works~~?
+
+-   `Source Code` (Monospace works with backticks \`)
+:::
+
+Here is a [span with a green]{style="color:green"}.
+
+Horizontal Rules: 
+---
+
+You can hyperlink as [Link](https://jihongzhang.org) here.
+
+> This is quoted text.
+>
+> -- Jihong Zhang
+
+### Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| label: fig-my-plot
+#| fig-cap: "My Plot"
+library(ggplot2)
+ggplot(mtcars, aes(x = mpg, y = disp)) + geom_point()
+```
+
+You can also cite your plot @fig-my-plot.
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+Image:
+
+Sincerely,
+
+Mr. Skywalker

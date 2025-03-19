@@ -21,8 +21,8 @@ quarto install extension JihongZ/FireLetter
 Note that you will need to update the output format to `format:FireLetter-typst` to enable use of the extension. For book projects, add:
 
 ```yaml
-project:
-  type: PrettyTypst
+Project:
+  type:FireLetter-typst
 ```
 
 to the `_quarto.yml` file.
